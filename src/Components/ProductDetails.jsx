@@ -26,7 +26,7 @@ function ProductDetails() {
       <h1>{product.title}</h1>
       <p>{product.description}</p>
       <h4>{product.price}</h4>
-      <p>Ratings{product.rate} count{product.count}</p>
+      <p>Ratings : {product.rating.rate} count: {product.rating.count}</p>
     </div>
     </>
   )
