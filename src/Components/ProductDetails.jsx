@@ -28,7 +28,7 @@ function ProductDetails() {
         <h1>{product.title}</h1>
         <p>{product.description}</p>
         <h2>Price: ${product.price}</h2>
-        <p>Ratings : {product.rating.rate} count: {product.rating.count}</p>
+        <p>Ratings {'\u2B50'} {product.rating.rate} & Count:👍 {product.rating.count}</p>
       </div>
     </div>
     </>
