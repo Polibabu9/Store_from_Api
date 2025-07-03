@@ -16,8 +16,8 @@ function ProductList() {
     .filter(
       product => (product.title.toLowerCase().includes(search.toLowerCase())))
       .sort((a,b) => {
-        if(sort === 'Low') return a.product - b.product;
-        if(sort === 'High') return b.product - a.product;
+        if(sort === 'Low') return a.price - b.price;
+        if(sort === 'High') return b.price - a.price;
         return 0;
       });
 
